@@ -14,6 +14,7 @@ try:
 except ImportError:
     # Python 3
     import urllib.request as urllib2
+    import urllib.error as urllib2
 from lib.common import writeFile
 from lib.data import paths
 from lib.data import target
